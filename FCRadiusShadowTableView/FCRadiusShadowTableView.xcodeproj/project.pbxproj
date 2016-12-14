@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECA274161E017A6000CC9B48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA274151E017A6000CC9B48 /* AppDelegate.swift */; };
+		ECA274181E017A6000CC9B48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA274171E017A6000CC9B48 /* ViewController.swift */; };
+		ECA2741B1E017A6000CC9B48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA274191E017A6000CC9B48 /* Main.storyboard */; };
+		ECA2741D1E017A6000CC9B48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA2741C1E017A6000CC9B48 /* Assets.xcassets */; };
+		ECA274201E017A6000CC9B48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA2741E1E017A6000CC9B48 /* LaunchScreen.storyboard */; };
+		ECA2742B1E017A6000CC9B48 /* FCRadiusShadowTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA2742A1E017A6000CC9B48 /* FCRadiusShadowTableViewTests.swift */; };
+		ECA274361E017A6000CC9B48 /* FCRadiusShadowTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA274351E017A6000CC9B48 /* FCRadiusShadowTableViewUITests.swift */; };
+		ECA274441E017BC000CC9B48 /* UITableViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA274431E017BC000CC9B48 /* UITableViewCell+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECA274271E017A6000CC9B48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECA2740A1E017A6000CC9B48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECA274111E017A6000CC9B48;
+			remoteInfo = FCRadiusShadowTableView;
+		};
+		ECA274321E017A6000CC9B48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECA2740A1E017A6000CC9B48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECA274111E017A6000CC9B48;
+			remoteInfo = FCRadiusShadowTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECA274121E017A6000CC9B48 /* FCRadiusShadowTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FCRadiusShadowTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA274151E017A6000CC9B48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECA274171E017A6000CC9B48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECA2741A1E017A6000CC9B48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECA2741C1E017A6000CC9B48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECA2741F1E017A6000CC9B48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECA274211E017A6000CC9B48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECA274261E017A6000CC9B48 /* FCRadiusShadowTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FCRadiusShadowTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA2742A1E017A6000CC9B48 /* FCRadiusShadowTableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCRadiusShadowTableViewTests.swift; sourceTree = "<group>"; };
+		ECA2742C1E017A6000CC9B48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECA274311E017A6000CC9B48 /* FCRadiusShadowTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FCRadiusShadowTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA274351E017A6000CC9B48 /* FCRadiusShadowTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCRadiusShadowTableViewUITests.swift; sourceTree = "<group>"; };
+		ECA274371E017A6000CC9B48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECA274431E017BC000CC9B48 /* UITableViewCell+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECA2740F1E017A6000CC9B48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA274231E017A6000CC9B48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA2742E1E017A6000CC9B48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECA274091E017A6000CC9B48 = {
+			isa = PBXGroup;
+			children = (
+				ECA274141E017A6000CC9B48 /* FCRadiusShadowTableView */,
+				ECA274291E017A6000CC9B48 /* FCRadiusShadowTableViewTests */,
+				ECA274341E017A6000CC9B48 /* FCRadiusShadowTableViewUITests */,
+				ECA274131E017A6000CC9B48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECA274131E017A6000CC9B48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECA274121E017A6000CC9B48 /* FCRadiusShadowTableView.app */,
+				ECA274261E017A6000CC9B48 /* FCRadiusShadowTableViewTests.xctest */,
+				ECA274311E017A6000CC9B48 /* FCRadiusShadowTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECA274141E017A6000CC9B48 /* FCRadiusShadowTableView */ = {
+			isa = PBXGroup;
+			children = (
+				ECA274431E017BC000CC9B48 /* UITableViewCell+Extension.swift */,
+				ECA274151E017A6000CC9B48 /* AppDelegate.swift */,
+				ECA274171E017A6000CC9B48 /* ViewController.swift */,
+				ECA274191E017A6000CC9B48 /* Main.storyboard */,
+				ECA2741C1E017A6000CC9B48 /* Assets.xcassets */,
+				ECA2741E1E017A6000CC9B48 /* LaunchScreen.storyboard */,
+				ECA274211E017A6000CC9B48 /* Info.plist */,
+			);
+			path = FCRadiusShadowTableView;
+			sourceTree = "<group>";
+		};
+		ECA274291E017A6000CC9B48 /* FCRadiusShadowTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECA2742A1E017A6000CC9B48 /* FCRadiusShadowTableViewTests.swift */,
+				ECA2742C1E017A6000CC9B48 /* Info.plist */,
+			);
+			path = FCRadiusShadowTableViewTests;
+			sourceTree = "<group>";
+		};
+		ECA274341E017A6000CC9B48 /* FCRadiusShadowTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECA274351E017A6000CC9B48 /* FCRadiusShadowTableViewUITests.swift */,
+				ECA274371E017A6000CC9B48 /* Info.plist */,
+			);
+			path = FCRadiusShadowTableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECA274111E017A6000CC9B48 /* FCRadiusShadowTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA2743A1E017A6000CC9B48 /* Build configuration list for PBXNativeTarget "FCRadiusShadowTableView" */;
+			buildPhases = (
+				ECA2740E1E017A6000CC9B48 /* Sources */,
+				ECA2740F1E017A6000CC9B48 /* Frameworks */,
+				ECA274101E017A6000CC9B48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FCRadiusShadowTableView;
+			productName = FCRadiusShadowTableView;
+			productReference = ECA274121E017A6000CC9B48 /* FCRadiusShadowTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECA274251E017A6000CC9B48 /* FCRadiusShadowTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA2743D1E017A6000CC9B48 /* Build configuration list for PBXNativeTarget "FCRadiusShadowTableViewTests" */;
+			buildPhases = (
+				ECA274221E017A6000CC9B48 /* Sources */,
+				ECA274231E017A6000CC9B48 /* Frameworks */,
+				ECA274241E017A6000CC9B48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECA274281E017A6000CC9B48 /* PBXTargetDependency */,
+			);
+			name = FCRadiusShadowTableViewTests;
+			productName = FCRadiusShadowTableViewTests;
+			productReference = ECA274261E017A6000CC9B48 /* FCRadiusShadowTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECA274301E017A6000CC9B48 /* FCRadiusShadowTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA274401E017A6000CC9B48 /* Build configuration list for PBXNativeTarget "FCRadiusShadowTableViewUITests" */;
+			buildPhases = (
+				ECA2742D1E017A6000CC9B48 /* Sources */,
+				ECA2742E1E017A6000CC9B48 /* Frameworks */,
+				ECA2742F1E017A6000CC9B48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECA274331E017A6000CC9B48 /* PBXTargetDependency */,
+			);
+			name = FCRadiusShadowTableViewUITests;
+			productName = FCRadiusShadowTableViewUITests;
+			productReference = ECA274311E017A6000CC9B48 /* FCRadiusShadowTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECA2740A1E017A6000CC9B48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = xdream;
+				TargetAttributes = {
+					ECA274111E017A6000CC9B48 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					ECA274251E017A6000CC9B48 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECA274111E017A6000CC9B48;
+					};
+					ECA274301E017A6000CC9B48 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECA274111E017A6000CC9B48;
+					};
+				};
+			};
+			buildConfigurationList = ECA2740D1E017A6000CC9B48 /* Build configuration list for PBXProject "FCRadiusShadowTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECA274091E017A6000CC9B48;
+			productRefGroup = ECA274131E017A6000CC9B48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECA274111E017A6000CC9B48 /* FCRadiusShadowTableView */,
+				ECA274251E017A6000CC9B48 /* FCRadiusShadowTableViewTests */,
+				ECA274301E017A6000CC9B48 /* FCRadiusShadowTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECA274101E017A6000CC9B48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA274201E017A6000CC9B48 /* LaunchScreen.storyboard in Resources */,
+				ECA2741D1E017A6000CC9B48 /* Assets.xcassets in Resources */,
+				ECA2741B1E017A6000CC9B48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA274241E017A6000CC9B48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA2742F1E017A6000CC9B48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECA2740E1E017A6000CC9B48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA274181E017A6000CC9B48 /* ViewController.swift in Sources */,
+				ECA274441E017BC000CC9B48 /* UITableViewCell+Extension.swift in Sources */,
+				ECA274161E017A6000CC9B48 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA274221E017A6000CC9B48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA2742B1E017A6000CC9B48 /* FCRadiusShadowTableViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA2742D1E017A6000CC9B48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA274361E017A6000CC9B48 /* FCRadiusShadowTableViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECA274281E017A6000CC9B48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECA274111E017A6000CC9B48 /* FCRadiusShadowTableView */;
+			targetProxy = ECA274271E017A6000CC9B48 /* PBXContainerItemProxy */;
+		};
+		ECA274331E017A6000CC9B48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECA274111E017A6000CC9B48 /* FCRadiusShadowTableView */;
+			targetProxy = ECA274321E017A6000CC9B48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECA274191E017A6000CC9B48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECA2741A1E017A6000CC9B48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECA2741E1E017A6000CC9B48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECA2741F1E017A6000CC9B48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECA274381E017A6000CC9B48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECA274391E017A6000CC9B48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECA2743B1E017A6000CC9B48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FCRadiusShadowTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xdream.FCRadiusShadowTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ECA2743C1E017A6000CC9B48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FCRadiusShadowTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xdream.FCRadiusShadowTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		ECA2743E1E017A6000CC9B48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FCRadiusShadowTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xdream.FCRadiusShadowTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FCRadiusShadowTableView.app/FCRadiusShadowTableView";
+			};
+			name = Debug;
+		};
+		ECA2743F1E017A6000CC9B48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FCRadiusShadowTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xdream.FCRadiusShadowTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FCRadiusShadowTableView.app/FCRadiusShadowTableView";
+			};
+			name = Release;
+		};
+		ECA274411E017A6000CC9B48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FCRadiusShadowTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xdream.FCRadiusShadowTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FCRadiusShadowTableView;
+			};
+			name = Debug;
+		};
+		ECA274421E017A6000CC9B48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FCRadiusShadowTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xdream.FCRadiusShadowTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FCRadiusShadowTableView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECA2740D1E017A6000CC9B48 /* Build configuration list for PBXProject "FCRadiusShadowTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA274381E017A6000CC9B48 /* Debug */,
+				ECA274391E017A6000CC9B48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA2743A1E017A6000CC9B48 /* Build configuration list for PBXNativeTarget "FCRadiusShadowTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA2743B1E017A6000CC9B48 /* Debug */,
+				ECA2743C1E017A6000CC9B48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA2743D1E017A6000CC9B48 /* Build configuration list for PBXNativeTarget "FCRadiusShadowTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA2743E1E017A6000CC9B48 /* Debug */,
+				ECA2743F1E017A6000CC9B48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA274401E017A6000CC9B48 /* Build configuration list for PBXNativeTarget "FCRadiusShadowTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA274411E017A6000CC9B48 /* Debug */,
+				ECA274421E017A6000CC9B48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECA2740A1E017A6000CC9B48 /* Project object */;
+}
